@@ -1,0 +1,167 @@
+*{
+  padding: 0%;
+  margin:0%;
+  box-sizing: border-box;
+}
+
+/* Header work  */
+#head{
+  padding: 25px 20px 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #c5c3c3;
+}
+#head h1{
+  font-weight: bolder;
+}
+#head h4{
+  font-weight: 700;
+}
+
+/* Deatails of the website work  */
+#deatails{
+  /* background-color: red; */
+  width: 80%;
+  margin: auto;
+  margin-top: 8%;
+}
+#deatails h1{
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+#deatails h1 .color{
+  color: #6a00ff;
+}
+#deatails h1 span{
+  padding: 0%;
+  margin: 0%;
+}
+#deatails h1 .one{
+  padding-left: 30px;
+}
+#deatails h1 .two{
+  padding-left: 5px;
+}
+#deatails h1 .three{
+  padding-left: 50px;
+}
+#deatails h1 .four{
+  padding-left: 25px;
+}
+#deatails h1 .five{
+  padding-left: 140px;
+}
+
+/* Team section work  */
+#team{
+  width: 80%;
+  margin: auto;
+  margin-top: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content:space-between;
+}
+.box{
+  width: 50%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.box .img{
+  margin: auto;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.box .img img{
+  height: 250px;
+  width: 250px;
+}
+/* Member one  */
+#infoOne{
+  margin: auto;
+}
+#infoOne h1{
+  padding-left: 55px;
+  font-size: 1.5rem;
+  color: #6a00ff;
+  font-weight: bolder;
+}
+/* Member Two  */
+#infoTwo{
+  margin: auto;
+}
+#infoTwo h1{
+  font-size: 1.5rem;
+  padding-left: 35px;
+  color: #6a00ff;
+  font-weight: bolder;
+}
+#infoTwo h1 span{
+  padding-left: 30px;
+}
+/* Member Three  */
+#deatailsThree{
+  margin: auto;
+}
+#infoThree{
+  margin: auto;
+}
+#infoThree h1{
+  font-size: 1.5rem;
+  padding-left: 30px;
+  color: #6a00ff;
+  font-weight: bolder;
+}
+
+/* Footer  */
+#footer{
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1e0d36;
+}
+.one{
+  padding-left: 8%;
+}
+.one h2{
+  color: #fff;
+  font-weight: 500;
+  font-size: 22px;
+  position: relative;
+  right: 45%;
+  padding-bottom: 20px;
+}
+.two h2{
+  color: #fff;
+  font-weight: 500;
+  font-size: 22px;
+  position: relative;
+  right: 45%;
+  padding-bottom: 20px;
+}
+.three{
+  padding-right: 8%;
+}
+.three h2{
+  color: #fff;
+  font-weight: 500;
+  font-size: 22px;
+  position: relative;
+  right: 35%;
+  padding-bottom: 20px;
+}
+#footer ul li{
+  list-style: none;
+  color: #c8c8c8;
+  font-weight: 400;
+  line-height: 25px;
+}

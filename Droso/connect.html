@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Registration Form in HTML CSS</title>
+ 
+    <link rel="stylesheet" href="connect.css" />
+  </head>
+  <body>
+    <section class="container">
+
+      <header>Connection Form</header>
+   
+        <form action="https://api.staticforms.xyz/submit" class="form" method="post">
+          
+            <input type="hidden" name="accessKey" value="9bc16db5-76a1-4555-92e0-1e92e1e26d86"> 
+            <input class="name" type="text" placeholder="Enter full name" name="name">
+            <input class="subject" type="text" placeholder="Enter subject" name="subject"> 
+            <input class="email" type="text"  placeholder="Enter email address" name="email">
+            <input class="phone" type="text"  placeholder="Enter phone number" name="phone"> 
+            <textarea class="message" placeholder="write your detail message..." name="message"></textarea> 
+            <input type="hidden" name="replyTo" value="@"> 
+            <input type="hidden" name="redirectTo" value="https://example.com/contact/success">
+            <input class="submit" type="submit" value="Submit" />
+        
+    </form>
+    </section>
+  </body>
+</html>
